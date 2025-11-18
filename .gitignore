@@ -17,6 +17,8 @@ ENV/
 .env
 .env.local
 .env.*.local
+.env.sample
+.env.template
 
 # Database
 *.db
