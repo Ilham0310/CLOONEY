@@ -67,6 +67,8 @@ docs/AI_OVERVIEW.md
 
 # Generated artifacts (keep structure, ignore data)
 # Note: JSON files are now included, but these specific ones are excluded
+differential_test_results*.json
+tests/test_api.json
 
-
+# Large capture files (can be regenerated)
 network_capture.json
