@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./fastapi_app:/app/fastapi_app
+      - ./data:/app/data
+    environment:
+      - DATABASE_URL=sqlite:///./data/asana_clone.db
+    command: sh -c "cd fastapi_app && python -c 'from database import init_db; init_db()' && uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+

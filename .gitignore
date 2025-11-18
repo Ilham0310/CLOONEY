@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+pipeline_output.log
+
+
+# Empty directories
+videos/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+.dockerignore
+
+# Documentation files (only README.md will be pushed)
+QUICK_START.md
+DEMO_SCRIPT.md
+INTERVIEW_GUIDE.md
+ASANA_REPLICATION_DETAILS.md
+PROJECT_EXPLANATION.md
+PROJECT_SUMMARY.md
+HOW_TO_RUN.md
+COMPLETE_PROJECT_GUIDE.md
+PIPELINE_EXECUTION_REPORT.md
+PROJECT_REPORT.md
+FILES_TO_EXCLUDE.md
+docs/AI_OVERVIEW.md
+
+# Generated artifacts (keep structure, ignore data)
+# Note: JSON files are now included, but these specific ones are excluded
+
+
+network_capture.json
